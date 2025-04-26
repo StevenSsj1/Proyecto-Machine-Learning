@@ -1,7 +1,23 @@
 # Proyecto de Machine Learning
 
 ## Descripción
-Este proyecto utiliza técnicas de Machine Learning para [describir brevemente el objetivo del proyecto]. Se realizaron procesos de limpieza de datos, entrenamiento de modelos y evaluación de resultados.
+Este proyecto utiliza técnicas de Machine Learning.
+Este proyecto tiene como objetivo extraer y procesar información estructurada de documentos PDF, identificando bloques de texto relevantes y analizando su similitud. 
+Utiliza técnicas de procesamiento de lenguaje natural (NLP) y aprendizaje automático para organizar, limpiar y comparar contenidos textuales de los PDFs.
+
+Está orientado a aplicaciones donde es necesario analizar grandes volúmenes de información documental. Se realizaron procesos de limpieza de datos, entrenamiento de modelos y evaluación de resultados.
+
+✅ Resumen del proyecto:
+
+Extraes texto desde archivos PDF usando PyPDF2.
+
+- Procesas el texto: eliminas fechas, números, símbolos raros, haces limpieza del lenguaje natural.
+- Encuentras títulos dentro del texto que siguen un patrón de fecha, hora y nombre en mayúsculas (por ejemplo: 23/04/2024 15:00 JUAN PEREZ).
+- Usas técnicas de procesamiento de lenguaje natural (NLP) como:
+- Tokenización (dividir palabras)
+- Stopwords removal (quitar palabras comunes como "el", "la", "de", etc.)
+- Stemming (reducir palabras a su raíz).
+- Calculas similitud de textos usando TF-IDF y coseno de similitud.
 
 ## Requisitos
 - **Python** 3.8 o superior

@@ -67,7 +67,7 @@ Estructura del proyecto
 ```bash
 ProyectoMl/
 │
-├── ProyectoMl_Limpio.ipynb   # Notebook principal
+├── proyectoml.py             # Notebook principal
 ├── data/                     # Carpeta opcional para los datos
 └── README.md                 # Este archivo
 ```
